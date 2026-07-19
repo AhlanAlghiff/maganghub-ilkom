@@ -589,19 +589,29 @@ export default function Dashboard() {
       </main>
 
       {/* Footer */}
-      <footer style={{
-        borderTop: "1px solid var(--border)",
-        padding: "24px",
-        textAlign: "center",
-        marginTop: "48px",
-      }}>
+      <footer
+        style={{
+          borderTop: "1px solid var(--border)",
+          padding: "24px",
+          textAlign: "center",
+          marginTop: "48px",
+        }}
+      >
         <p style={{ fontSize: "13px", color: "var(--text-muted)" }}>
           Data bersumber dari{" "}
-          <a href="https://maganghub.kemnaker.go.id" target="_blank" rel="noopener noreferrer"
-            style={{ color: "var(--accent)", textDecoration: "none" }}>
+          <a
+            href="https://maganghub.kemnaker.go.id"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ color: "var(--accent)", textDecoration: "none" }}
+          >
             maganghub.kemnaker.go.id
           </a>
           {" "}· Dashboard Lowongan Ilmu Komputer
+        </p>
+
+        <p style={{ fontSize: "12px", color: "var(--text-muted)", marginTop: "8px" }}>
+          © {new Date().getFullYear()} @ahlanalghiff. All rights reserved.
         </p>
       </footer>
 
